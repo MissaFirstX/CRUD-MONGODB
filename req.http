@@ -1,0 +1,18 @@
+###
+POST http://localhost:3000/api/crearTarea HTTP/1.1
+Content-Type: application/json
+
+{    
+"nombre":"Ensayo",
+"descripcion": "entregar en papel",
+"fecha":"2023-02-18"
+}
+
+###
+GET http://localhost:3000/api/getTareas HTTP/1.1
+
+###
+GET http://localhost:3000/api/tareaName/Ensayo HTTP/1.1
+
+###
+DELETE http://localhost:3000/api/deleteTarea/6414a84bbf01270fd1a093dd HTTP/1.1 HTTP/1.1
